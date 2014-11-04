@@ -13,7 +13,7 @@ SET client_min_messages = warning;
 -- Name: test_data; Type: SCHEMA; Schema: -; Owner: mkenny
 --
 
-CREATE SCHEMA test_data;
+CREATE SCHEMA test_data1;
 
 
 ALTER SCHEMA test_data OWNER TO mkenny;
