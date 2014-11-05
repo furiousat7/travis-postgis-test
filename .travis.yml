@@ -11,7 +11,7 @@ before_script:
   - psql -c 'create database travis_postgis;' -U postgres
   - psql -c 'CREATE EXTENSION postgis;' -U postgres -d travis_postgis
   - psql -c 'CREATE EXTENSION postgis_topology;' -U postgres -d travis_postgis
-  - psql -U postgres -d travis_postgis -a -f ./temp.sql
+  - psql -U postgres -d travis_postgis -a -f temp_script.sql
 
 
 # command to run tests
